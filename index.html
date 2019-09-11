@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="icon" href="res/images/favicon.ico">
+	<title>My Dashboard</title>
+</head>
+<body>
+	<header>
+		<strong>Welcome to your dashboard!</strong>
+	</header>
+	<section>
+		<div>
+			<img src="res/images/me.png" alt="My picture">
+		</div>
+		<div>
+			<ul>
+				<li>John Doe</li>
+				<li>27/06/1993</li>
+				<li>Software Engineering</li>
+			</ul>
+		</div>
+		<div>
+			<strong>2.65</strong>
+		</div>
+	</section>
+	<section>
+		<h1>Courses</h1>
+		<table>
+			<thead>
+			<tr>
+				<th>#</th>
+				<th>Course Title</th>
+				<th>Semester</th>
+				<th>Grade</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>1</td>
+				<td><a href="https://courses.cs.ut.ee/2019/asd/fall" target="_blank">Agile software development</a></td>
+				<td>1</td>
+				<td>82</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td><a href="https://courses.cs.ut.ee/2019/SM/fall" target="_blank">System modeling</a></td>
+				<td>1</td>
+				<td>85</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td><a href="https://moodle.ut.ee/course/view.php?id=5062" target="_blank">Object-oriented programming</a></td>
+				<td>2</td>
+				<td>99</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td><a href="https://ois2.ut.ee/#/courses/FLLC.09.003/version/ca3f12018f0c6acd498cf9b6778ee82a/details" target="_blank">Estonian language Level A2</a></td>
+				<td>2</td>
+				<td>65</td>
+			</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>5</td>
+					<td><a href="https://courses.cs.ut.ee/2019/algorithmics/fall" target="_blank">Algorythmics</a></td>
+					<td>2</td>
+					<td>71</td>
+				</tr>
+			</tfoot>			
+		</table>
+	</section>
+	<footer>
+		<ul>
+			<li>
+				<a href="https://ois2.ut.ee/" target="_blank">OIS</a>
+			</li>
+			<li>
+				<a href="https://courses.cs.ut.ee/" target="_blank">Courses</a>
+			</li>
+		</ul>
+	</footer>
+	<form action html="/action_page.php" method="post">
+		Number:<br>
+		<input type="text" name="number"><br>
+		Course title:<br>
+		<input type="text" name="course title"><br>
+		Semester:<br>
+		<input type="text" name="semester"><br>
+		Grade:<br>
+		<input type="text" name="grade"><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
